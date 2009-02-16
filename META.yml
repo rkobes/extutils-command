@@ -1,0 +1,37 @@
+--- #YAML:1.0
+name:         ExtUtils-Command
+version:      1.16
+version_from: lib/ExtUtils/Command.pm
+installdirs:  perl
+license:      perl
+abstract:     utilities to replace common UNIX commands in Makefiles etc.
+author:
+    - 'Randy Kobes <r.kobes@uwinnipeg.ca>'
+requires:
+    File::Basename:                0
+    File::Spec:                    0.8
+provides:
+  ExtUtils::Command:
+    file: lib/ExtUtils/Command.pm
+    version: 1.16
+  Shell::Command:
+    file: lib/Shell/Command.pm
+    version: 0.04
+distribution_type: module
+generated_by: Randy Kobes
+urls:
+   license: http://dev.perl.org/licenses/
+resources:
+  license: http://dev.perl.org/licenses/
+  homepage: http://svn.perl.org/modules/ExtUtils-Command/trunk/
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=ExtUtils-Command
+  AnnoCPAN: http://annocpan.org/dist/ExtUtils-Command
+  CPANForum: http://www.cpanforum.com/dist/ExtUtils-Command
+  CPANTS: http://cpants.perl.org/dist/ExtUtils-Command
+  Rating: http://cpanratings.perl.org/d/ExtUtils-Command
+  SearchCPAN: http://search.cpan.org/~RKOBES/ExtUtils-Command/
+  Testers: http://cpantesters.perl.org/show/ExtUtils-Command.html
+  UWinnipeg: http://cpan.uwinnipeg.ca/dist/ExtUtils-Command
+meta-spec:
+  version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
